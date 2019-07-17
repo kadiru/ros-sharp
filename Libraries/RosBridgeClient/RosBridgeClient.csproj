@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json.Bson, Version=1.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.Bson.1.0.2\lib\net45\Newtonsoft.Json.Bson.dll</HintPath>
@@ -58,6 +58,7 @@
     <Compile Include="Messages\Actionlib\FibonacciGoal.cs" />
     <Compile Include="Messages\Actionlib\FibonacciResult.cs" />
     <Compile Include="Messages\Geometry\Accel.cs" />
+    <Compile Include="Messages\Geometry\AccelStamped.cs" />
     <Compile Include="Messages\Geometry\Point.cs" />
     <Compile Include="Messages\Geometry\PointStamped.cs" />
     <Compile Include="Messages\Geometry\Pose.cs" />

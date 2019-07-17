@@ -145,6 +145,9 @@
     <Compile Include="..\RosBridgeClient\Messages\Geometry\Accel.cs">
       <Link>Messages\Geometry\Accel.cs</Link>
     </Compile>
+    <Compile Include="..\RosBridgeClient\Messages\Geometry\AccelStamped.cs">
+      <Link>Messages\Geometry\AccelStamped.cs</Link>
+    </Compile>
     <Compile Include="..\RosBridgeClient\Messages\Geometry\Point.cs">
       <Link>Messages\Geometry\Point.cs</Link>
     </Compile>
@@ -282,16 +285,19 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.1.9</Version>
+      <Version>6.2.8</Version>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>12.0.1</Version>
+      <Version>12.0.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json.Bson">
       <HintPath>..\packages\Newtonsoft.Json.Bson.1.0.2\lib\netstandard1.3\Newtonsoft.Json.Bson.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
