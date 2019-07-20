@@ -22,13 +22,12 @@ namespace RosSharp.RosBridgeClient.Messages.Geometry
         [JsonIgnore]
         public const string RosMessageName = "geometry_msgs/AccelStamped";
 		public Standard.Header header;
-        public Vector3 linear;
-        public Vector3 angular;
+        public Accel accel;
+
         public AccelStamped()
         {
 			header = new Standard.Header();
-            linear = new Vector3();
-            angular = new Vector3();
+            accel = new Accel();
         }
     }
 }
